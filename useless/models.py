@@ -12,3 +12,7 @@ class Position(models.Model):
 class Chef(models.Model):
     name = models.CharField(max_length=100)
     age = models.IntegerField()
+
+
+class RandomTable(models.Model):
+    title = models.CharField(max_length=255)
